@@ -7,7 +7,7 @@ function csub(a,b)
 end
 
 function cmul(a, b)
-  return {a[1] * b[1] - a[2] * b[2], a[1] * b[2] + a[1] * b[2]}
+  return {a[1] * b[1] - a[2] * b[2], a[1] * b[2] + a[2] * b[1]}
 end
 
 function cconj(a)
